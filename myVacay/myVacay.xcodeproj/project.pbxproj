@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E04182721B6113B00E47A91 /* Languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E04182621B6113B00E47A91 /* Languages.plist */; };
+		9E04182921B6E38900E47A91 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04182821B6E38900E47A91 /* RestaurantsViewController.swift */; };
+		9E04182B21B6ED2100E47A91 /* RestaurantMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04182A21B6ED2100E47A91 /* RestaurantMapViewController.swift */; };
+		9E04183F21B70A9900E47A91 /* TripImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04183A21B70A9800E47A91 /* TripImageViewController.swift */; };
+		9E04184021B70A9900E47A91 /* TripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04183B21B70A9900E47A91 /* TripTableViewController.swift */; };
+		9E04184121B70A9900E47A91 /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04183C21B70A9900E47A91 /* TripDetailsViewController.swift */; };
+		9E04184221B70A9900E47A91 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04183D21B70A9900E47A91 /* TripTableViewCell.swift */; };
+		9E04184321B70A9900E47A91 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04183E21B70A9900E47A91 /* AddTripViewController.swift */; };
+		9E04184521B7276100E47A91 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04184421B7276100E47A91 /* HomeViewController.swift */; };
+		9E04185121B7774B00E47A91 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E04185021B7774B00E47A91 /* ActivityIndicator.swift */; };
+		9E38B68921AF8C4800699403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E38B68821AF8C4800699403 /* AppDelegate.swift */; };
+		9E38B69021AF8C4800699403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E38B68E21AF8C4800699403 /* Main.storyboard */; };
+		9E38B69221AF8C4900699403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E38B69121AF8C4900699403 /* Assets.xcassets */; };
+		9E38B69521AF8C4900699403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E38B69321AF8C4900699403 /* LaunchScreen.storyboard */; };
+		9E38B69D21AF8C6000699403 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E38B69C21AF8C6000699403 /* GoogleService-Info.plist */; };
+		9E5F464821B479D100E82EDD /* LandmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F464721B479D100E82EDD /* LandmarkViewController.swift */; };
+		9E5F464A21B4ACEA00E82EDD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5F464921B4ACEA00E82EDD /* WebKit.framework */; };
+		9E5F465021B4B46500E82EDD /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E5F464F21B4B46500E82EDD /* Countries.plist */; };
+		9E5F465921B4B69200E82EDD /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F465821B4B69200E82EDD /* BookingViewController.swift */; };
+		9E5F465B21B4BF4000E82EDD /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F465A21B4BF4000E82EDD /* CurrencyViewController.swift */; };
+		9E5F465D21B4BFD300E82EDD /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F465C21B4BFD300E82EDD /* ConverterViewController.swift */; };
+		9E5F466721B4C8D000E82EDD /* GoogleMapWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F466621B4C8D000E82EDD /* GoogleMapWebViewController.swift */; };
+		9E5F467021B5CE0500E82EDD /* GoogleSearchWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F466F21B5CE0500E82EDD /* GoogleSearchWebViewController.swift */; };
+		9E5F467221B5DCE200E82EDD /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F467121B5DCE200E82EDD /* YelpClient.swift */; };
+		9E5F467421B5DD2800E82EDD /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F467321B5DD2800E82EDD /* Business.swift */; };
+		9E5F467621B5DE0900E82EDD /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F467521B5DE0900E82EDD /* RestaurantTableViewCell.swift */; };
+		9E5F467821B5DE1E00E82EDD /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F467721B5DE1E00E82EDD /* RestaurantTableViewController.swift */; };
+		9E5F467A21B5E3D900E82EDD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5F467921B5E3D900E82EDD /* CoreLocation.framework */; };
+		9E5F467E21B5FD4100E82EDD /* MyTrips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E5F467D21B5FD4100E82EDD /* MyTrips.plist */; };
+		9E5F468521B5FE6200E82EDD /* LanguageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F468421B5FE6200E82EDD /* LanguageSelectViewController.swift */; };
+		9E5F468721B5FF1C00E82EDD /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F468621B5FF1C00E82EDD /* TranslateViewController.swift */; };
+		9E5F468921B5FF8700E82EDD /* ROGoogleTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F468821B5FF8700E82EDD /* ROGoogleTranslate.swift */; };
+		9F98C02D59220BA2EFA78A26 /* Pods_myVacay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2C18113BEBE4187FC59599 /* Pods_myVacay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5630E1A7C9D54EFAE028B6CE /* Pods-myVacay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myVacay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myVacay/Pods-myVacay.debug.xcconfig"; sourceTree = "<group>"; };
+		6CDA588EE34D979128E9EF86 /* Pods-myVacay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myVacay.release.xcconfig"; path = "Pods/Target Support Files/Pods-myVacay/Pods-myVacay.release.xcconfig"; sourceTree = "<group>"; };
+		8E2C18113BEBE4187FC59599 /* Pods_myVacay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myVacay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E04182621B6113B00E47A91 /* Languages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Languages.plist; sourceTree = "<group>"; };
+		9E04182821B6E38900E47A91 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		9E04182A21B6ED2100E47A91 /* RestaurantMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewController.swift; sourceTree = "<group>"; };
+		9E04183A21B70A9800E47A91 /* TripImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripImageViewController.swift; sourceTree = "<group>"; };
+		9E04183B21B70A9900E47A91 /* TripTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripTableViewController.swift; sourceTree = "<group>"; };
+		9E04183C21B70A9900E47A91 /* TripDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
+		9E04183D21B70A9900E47A91 /* TripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		9E04183E21B70A9900E47A91 /* AddTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		9E04184421B7276100E47A91 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9E04185021B7774B00E47A91 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		9E38B68521AF8C4800699403 /* myVacay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myVacay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E38B68821AF8C4800699403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E38B68F21AF8C4800699403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E38B69121AF8C4900699403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E38B69421AF8C4900699403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E38B69621AF8C4900699403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E38B69C21AF8C6000699403 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E5F464721B479D100E82EDD /* LandmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkViewController.swift; sourceTree = "<group>"; };
+		9E5F464921B4ACEA00E82EDD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9E5F464F21B4B46500E82EDD /* Countries.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		9E5F465821B4B69200E82EDD /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		9E5F465A21B4BF4000E82EDD /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		9E5F465C21B4BFD300E82EDD /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+		9E5F466621B4C8D000E82EDD /* GoogleMapWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapWebViewController.swift; sourceTree = "<group>"; };
+		9E5F466F21B5CE0500E82EDD /* GoogleSearchWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearchWebViewController.swift; sourceTree = "<group>"; };
+		9E5F467121B5DCE200E82EDD /* YelpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		9E5F467321B5DD2800E82EDD /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		9E5F467521B5DE0900E82EDD /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		9E5F467721B5DE1E00E82EDD /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		9E5F467921B5E3D900E82EDD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9E5F467D21B5FD4100E82EDD /* MyTrips.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MyTrips.plist; path = Booking/MyTrips.plist; sourceTree = "<group>"; };
+		9E5F468421B5FE6200E82EDD /* LanguageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageSelectViewController.swift; path = myVacay/LanguageSelectViewController.swift; sourceTree = SOURCE_ROOT; };
+		9E5F468621B5FF1C00E82EDD /* TranslateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TranslateViewController.swift; path = myVacay/TranslateViewController.swift; sourceTree = SOURCE_ROOT; };
+		9E5F468821B5FF8700E82EDD /* ROGoogleTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROGoogleTranslate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E38B68221AF8C4800699403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5F467A21B5E3D900E82EDD /* CoreLocation.framework in Frameworks */,
+				9E5F464A21B4ACEA00E82EDD /* WebKit.framework in Frameworks */,
+				9F98C02D59220BA2EFA78A26 /* Pods_myVacay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1481F18A83615C0A436D95EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F467921B5E3D900E82EDD /* CoreLocation.framework */,
+				9E5F464921B4ACEA00E82EDD /* WebKit.framework */,
+				8E2C18113BEBE4187FC59599 /* Pods_myVacay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66686A896329EC05C086A43B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5630E1A7C9D54EFAE028B6CE /* Pods-myVacay.debug.xcconfig */,
+				6CDA588EE34D979128E9EF86 /* Pods-myVacay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E04182C21B70A4900E47A91 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				9E04183E21B70A9900E47A91 /* AddTripViewController.swift */,
+				9E04183C21B70A9900E47A91 /* TripDetailsViewController.swift */,
+				9E04183A21B70A9800E47A91 /* TripImageViewController.swift */,
+				9E04183D21B70A9900E47A91 /* TripTableViewCell.swift */,
+				9E04183B21B70A9900E47A91 /* TripTableViewController.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		9E38B67C21AF8C4800699403 = {
+			isa = PBXGroup;
+			children = (
+				9E38B68721AF8C4800699403 /* myVacay */,
+				9E38B68621AF8C4800699403 /* Products */,
+				66686A896329EC05C086A43B /* Pods */,
+				1481F18A83615C0A436D95EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E38B68621AF8C4800699403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E38B68521AF8C4800699403 /* myVacay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E38B68721AF8C4800699403 /* myVacay */ = {
+			isa = PBXGroup;
+			children = (
+				9E38B68821AF8C4800699403 /* AppDelegate.swift */,
+				9E5F467121B5DCE200E82EDD /* YelpClient.swift */,
+				9E5F467321B5DD2800E82EDD /* Business.swift */,
+				9E5F468821B5FF8700E82EDD /* ROGoogleTranslate.swift */,
+				9E04185021B7774B00E47A91 /* ActivityIndicator.swift */,
+				9E04184421B7276100E47A91 /* HomeViewController.swift */,
+				9E5F466B21B5A61900E82EDD /* Landmark */,
+				9E5F466C21B5A62700E82EDD /* Booking */,
+				9E5F466E21B5BD3F00E82EDD /* Restaurants */,
+				9E04182C21B70A4900E47A91 /* Diary */,
+				9E5F468321B5FE4200E82EDD /* Translate */,
+				9E5F466D21B5A64000E82EDD /* Currency */,
+				9E38B68E21AF8C4800699403 /* Main.storyboard */,
+				9E38B69121AF8C4900699403 /* Assets.xcassets */,
+				9E38B69321AF8C4900699403 /* LaunchScreen.storyboard */,
+				9E38B69621AF8C4900699403 /* Info.plist */,
+				9E38B69C21AF8C6000699403 /* GoogleService-Info.plist */,
+				9E5F464F21B4B46500E82EDD /* Countries.plist */,
+				9E5F467D21B5FD4100E82EDD /* MyTrips.plist */,
+				9E04182621B6113B00E47A91 /* Languages.plist */,
+			);
+			path = myVacay;
+			sourceTree = "<group>";
+		};
+		9E5F466B21B5A61900E82EDD /* Landmark */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F464721B479D100E82EDD /* LandmarkViewController.swift */,
+				9E5F466621B4C8D000E82EDD /* GoogleMapWebViewController.swift */,
+				9E5F466F21B5CE0500E82EDD /* GoogleSearchWebViewController.swift */,
+			);
+			path = Landmark;
+			sourceTree = "<group>";
+		};
+		9E5F466C21B5A62700E82EDD /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F465821B4B69200E82EDD /* BookingViewController.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		9E5F466D21B5A64000E82EDD /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F465A21B4BF4000E82EDD /* CurrencyViewController.swift */,
+				9E5F465C21B4BFD300E82EDD /* ConverterViewController.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		9E5F466E21B5BD3F00E82EDD /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				9E04182821B6E38900E47A91 /* RestaurantsViewController.swift */,
+				9E5F467521B5DE0900E82EDD /* RestaurantTableViewCell.swift */,
+				9E5F467721B5DE1E00E82EDD /* RestaurantTableViewController.swift */,
+				9E04182A21B6ED2100E47A91 /* RestaurantMapViewController.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		9E5F468321B5FE4200E82EDD /* Translate */ = {
+			isa = PBXGroup;
+			children = (
+				9E5F468421B5FE6200E82EDD /* LanguageSelectViewController.swift */,
+				9E5F468621B5FF1C00E82EDD /* TranslateViewController.swift */,
+			);
+			path = Translate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E38B68421AF8C4800699403 /* myVacay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E38B69921AF8C4900699403 /* Build configuration list for PBXNativeTarget "myVacay" */;
+			buildPhases = (
+				DC1F32B6DDC3A5716D67BDAE /* [CP] Check Pods Manifest.lock */,
+				9E38B68121AF8C4800699403 /* Sources */,
+				9E38B68221AF8C4800699403 /* Frameworks */,
+				9E38B68321AF8C4800699403 /* Resources */,
+				978200916D0F584C360D74BE /* [CP] Embed Pods Frameworks */,
+				5BEFFEC09AD1D74768BB3183 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myVacay;
+			productName = myVacay;
+			productReference = 9E38B68521AF8C4800699403 /* myVacay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E38B67D21AF8C4800699403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ahmed AlTonobey";
+				TargetAttributes = {
+					9E38B68421AF8C4800699403 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E38B68021AF8C4800699403 /* Build configuration list for PBXProject "myVacay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E38B67C21AF8C4800699403;
+			productRefGroup = 9E38B68621AF8C4800699403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E38B68421AF8C4800699403 /* myVacay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E38B68321AF8C4800699403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E38B69521AF8C4900699403 /* LaunchScreen.storyboard in Resources */,
+				9E5F467E21B5FD4100E82EDD /* MyTrips.plist in Resources */,
+				9E38B69D21AF8C6000699403 /* GoogleService-Info.plist in Resources */,
+				9E38B69221AF8C4900699403 /* Assets.xcassets in Resources */,
+				9E04182721B6113B00E47A91 /* Languages.plist in Resources */,
+				9E5F465021B4B46500E82EDD /* Countries.plist in Resources */,
+				9E38B69021AF8C4800699403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BEFFEC09AD1D74768BB3183 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myVacay/Pods-myVacay-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myVacay/Pods-myVacay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		978200916D0F584C360D74BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myVacay/Pods-myVacay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BDBOAuth1Manager/BDBOAuth1Manager.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ROGoogleTranslate/ROGoogleTranslate.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDBOAuth1Manager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ROGoogleTranslate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myVacay/Pods-myVacay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1F32B6DDC3A5716D67BDAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myVacay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E38B68121AF8C4800699403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5F467621B5DE0900E82EDD /* RestaurantTableViewCell.swift in Sources */,
+				9E38B68921AF8C4800699403 /* AppDelegate.swift in Sources */,
+				9E04184021B70A9900E47A91 /* TripTableViewController.swift in Sources */,
+				9E5F467021B5CE0500E82EDD /* GoogleSearchWebViewController.swift in Sources */,
+				9E04184221B70A9900E47A91 /* TripTableViewCell.swift in Sources */,
+				9E5F466721B4C8D000E82EDD /* GoogleMapWebViewController.swift in Sources */,
+				9E5F468921B5FF8700E82EDD /* ROGoogleTranslate.swift in Sources */,
+				9E04184521B7276100E47A91 /* HomeViewController.swift in Sources */,
+				9E5F468521B5FE6200E82EDD /* LanguageSelectViewController.swift in Sources */,
+				9E04182B21B6ED2100E47A91 /* RestaurantMapViewController.swift in Sources */,
+				9E5F465B21B4BF4000E82EDD /* CurrencyViewController.swift in Sources */,
+				9E5F467821B5DE1E00E82EDD /* RestaurantTableViewController.swift in Sources */,
+				9E04185121B7774B00E47A91 /* ActivityIndicator.swift in Sources */,
+				9E04184121B70A9900E47A91 /* TripDetailsViewController.swift in Sources */,
+				9E5F467221B5DCE200E82EDD /* YelpClient.swift in Sources */,
+				9E04183F21B70A9900E47A91 /* TripImageViewController.swift in Sources */,
+				9E04184321B70A9900E47A91 /* AddTripViewController.swift in Sources */,
+				9E5F465921B4B69200E82EDD /* BookingViewController.swift in Sources */,
+				9E5F467421B5DD2800E82EDD /* Business.swift in Sources */,
+				9E5F468721B5FF1C00E82EDD /* TranslateViewController.swift in Sources */,
+				9E5F464821B479D100E82EDD /* LandmarkViewController.swift in Sources */,
+				9E04182921B6E38900E47A91 /* RestaurantsViewController.swift in Sources */,
+				9E5F465D21B4BFD300E82EDD /* ConverterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E38B68E21AF8C4800699403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E38B68F21AF8C4800699403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E38B69321AF8C4900699403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E38B69421AF8C4900699403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E38B69721AF8C4900699403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E38B69821AF8C4900699403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E38B69A21AF8C4900699403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5630E1A7C9D54EFAE028B6CE /* Pods-myVacay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWVMQ6474P;
+				INFOPLIST_FILE = myVacay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedaltonobey.myVacay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E38B69B21AF8C4900699403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDA588EE34D979128E9EF86 /* Pods-myVacay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KWVMQ6474P;
+				INFOPLIST_FILE = myVacay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedaltonobey.myVacay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E38B68021AF8C4800699403 /* Build configuration list for PBXProject "myVacay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E38B69721AF8C4900699403 /* Debug */,
+				9E38B69821AF8C4900699403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E38B69921AF8C4900699403 /* Build configuration list for PBXNativeTarget "myVacay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E38B69A21AF8C4900699403 /* Debug */,
+				9E38B69B21AF8C4900699403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E38B67D21AF8C4800699403 /* Project object */;
+}
